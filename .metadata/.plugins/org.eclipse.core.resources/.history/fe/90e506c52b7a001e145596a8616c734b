@@ -1,0 +1,15 @@
+package ex5_5;
+
+public class Ex5_5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.print("Celsius\tFahrenheit");
+		System.out.print("   |   ");
+		System.out.println("Fahrenheit\tCelsius");
+		
+		for(int i=0 ; i<=80; i+=2) {
+			System.out.printf("%d\t%f",i,i/5*9+32);
+		}
+	}
+}

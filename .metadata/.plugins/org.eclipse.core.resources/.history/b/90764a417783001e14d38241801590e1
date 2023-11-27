@@ -1,0 +1,11 @@
+package e5_15;
+
+public class Ex5_15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i = '!';
+		System.out.print(i);
+	}
+
+}
