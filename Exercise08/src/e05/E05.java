@@ -22,16 +22,25 @@ public class E05 {
 				}
 			}
 		}
-		System.out.println("result is:\n" + addMatrix(matrixA, matrixB)[0][0]+" "+addMatrix(matrixA, matrixB)[0][1]+
-				" "+"\n"+addMatrix(matrixA, matrixB)[1][0]+" "+addMatrix(matrixA, matrixB)[1][1]);
+		int[][] result = addMatrix(matrixA, matrixB, size);
+		displayResult(result,size);
 	}
-	public static int[][] addMatrix(int[][] a, int[][] b){
-		int[][] result= new int [2][2];
-		for(int i=0; i<2; i++) {
-			for(int j=0; j<2; j++) {
+	public static int[][] addMatrix(int[][] a, int[][] b, int size){
+		int[][] result= new int [size][size];
+		for(int i=0; i<size; i++) {
+			for(int j=0; j<size; j++) {
 				result[i][j]=a[i][j]+b[i][j];
 			}
 		}
 		return result;
+	}
+	public static void displayResult(int[][] result, int size) {
+		System.out.println("The result is: ");
+		for(int i=0; i<size; i++) {
+			for (int j = 0; j < size; j++) {
+                System.out.print(result[i][j] + " ");
+            }
+			System.out.println();
+		}
 	}
 }
