@@ -3,6 +3,6 @@
     <fullyQualifiedTypeName name="polymorphism.Animal"/>
     <fullyQualifiedTypeName name="Package1.A"/>
     <fullyQualifiedTypeName name="Package2.C"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
